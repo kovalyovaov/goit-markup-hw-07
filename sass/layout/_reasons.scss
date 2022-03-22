@@ -1,0 +1,82 @@
+.reasons-icon-link {
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    display: flex;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  .reasons-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .reasons-item {
+    width: 270px;
+  }
+  
+  .reasons-link {
+    width: 370px;
+  }
+  
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .reasons-pre-titile {
+    margin-bottom: 10px;
+  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+  }
+  
+  .reasons-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+  }
+  
+  .reasons-title {
+    margin-top: 94px;
+    margin-bottom: 50px;
+    color: var(--title-color);
+  }
+  
+  /*----текст на картинку----*/
+  
+  .reasons-actions {
+    position: absolute;
+    display: flex;
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--btn-color);
+  }
+  
+  .reasons-img {
+    width: 370px;
+    height: 294px;
+    position: relative;
+  }
