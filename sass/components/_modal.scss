@@ -45,9 +45,10 @@
   
   
   .modal-title {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: calc(23 / 20);
+    @include font(20px, 700, 1.15);
+  // font-weight: 700;
+  // font-size: 20px;
+  // line-height: calc(23 / 20);
   text-align: center;
   
   color: var(--header-text-color);
@@ -109,9 +110,10 @@
   
   .modal-label {
   font-style: 400;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: calc(14 / 12);
+  @include font(12px, 400, 1.16);
+  // font-weight: 400;
+  // font-size: 12px;
+  // line-height: calc(14 / 12);
   color: var(--text-color);
   margin-bottom: 4px;
   display: flex;
@@ -121,20 +123,21 @@
     width: 200px;
     height: 50px;
     font-style: 400;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: calc(30 / 16);
+    @include font(16px, 700, 1.87);
+    // font-weight: 700;
+    // font-size: 16px;
+    // line-height: calc(30 / 16);
     display: block;
     letter-spacing: 0.06em;
     color: var(--btn-color);
     background-color: var(--accent-color);
-  text-align: center;
+    text-align: center;
     margin-right: auto;
     margin-left: auto;
     border: 1px solid var(--accent-color);
-  border-radius: 4px;
-  cursor: pointer;
-  margin-top: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 30px;
   }
   
   .form-checkbox {
@@ -143,9 +146,9 @@
   
   
   .modal-label-policy {
-    
-    font-size: 14px;
-    line-height: calc(24 / 14);
+    @include font(14px, 400, 1.7, 0.03em);
+    // font-size: 14px;
+    // line-height: calc(24 / 14);
     color: var(--text-color);
     display: flex;
     align-items: center;

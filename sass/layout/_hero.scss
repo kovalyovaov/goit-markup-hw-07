@@ -21,12 +21,13 @@
   .hero-title {
     margin-bottom: 30px;
   
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
+    @include font(44px, 900, 1.36, 0.06em);
+    // font-weight: 900;
+    // font-size: 44px;
+    // line-height: 1.36;
+    // letter-spacing: 0.06em;
     text-transform: uppercase;
+    text-align: center;
     color: var(--btn-color);
   }
   
@@ -36,10 +37,11 @@
     border: 1px solid transparent;
   
     font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
+    @include font(16px, 700, 1.87, 0.06em);
+    // font-weight: 700;
+    // font-size: 16px;
+    // line-height: 1.87;
+    // letter-spacing: 0.06em;
     color: var(--btn-color);
 
     & {

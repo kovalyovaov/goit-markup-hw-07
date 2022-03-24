@@ -29,21 +29,23 @@
   
   .about-title {
     margin-bottom: 50px;
-  
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
+    @include font(36px, 700, 1.16, 0.03em);
+    // font-weight: 700;
+    // font-size: 36px;
+    // line-height: 1.16;
+    // letter-spacing: 0.03em;
     color: var(--title-color);
   }
   
   .about-pre-title {
     margin-bottom: 10px;
+
+    @include font(16px, 500, 1.18, 0.03em);
   
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
+    // font-weight: 500;
+    // font-size: 16px;
+    // line-height: 1.18;
+    // letter-spacing: 0.03em;
     text-align: center;
     color: var(--title-color);
   }

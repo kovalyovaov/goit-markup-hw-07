@@ -132,7 +132,8 @@ body {
 .modal-title {
   font-weight: 700;
   font-size: 20px;
-  line-height: calc(23 / 20);
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--header-text-color);
   margin-bottom: 12px;
@@ -270,7 +271,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(31 / 26);
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
@@ -289,7 +290,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(31 / 26);
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
@@ -350,9 +351,9 @@ body {
 
 .header-link-email {
   display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
-  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -384,9 +385,9 @@ body {
 
 .header-link-tel {
   display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
-  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;

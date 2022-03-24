@@ -11,10 +11,11 @@
   
   .filtr-btm {
     font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
+    @include font(16px, 500, 1.62, 0.03em);
+    // font-weight: 500;
+    // font-size: 16px;
+    // line-height: 1.62;
+    // letter-spacing: 0.03em;
     color: var(--header-text-color);
     cursor: pointer;
     border-radius: 4px;

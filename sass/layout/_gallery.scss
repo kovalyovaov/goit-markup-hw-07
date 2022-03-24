@@ -38,10 +38,11 @@
     top: 0;
     left: 0;
   
-    font-weight: 500;
-    font-size: 18px;
-    line-height: (calc(28 / 18));
-    letter-spacing: 0.03em;
+    @include font(18px, 500, 1.55, 0.03em);
+    // font-weight: 500;
+    // font-size: 18px;
+    // line-height: (calc(28 / 18));
+    // letter-spacing: 0.03em;
     text-align: center;
     color: var(--btn-color);
     background-color: var(--accent-color);
@@ -72,18 +73,20 @@
   .gallery-title {
     margin-bottom: 4px;
   
-    font-weight: 700;
-    font-size: 18px;
-    line-height: calc(36 / 18);
-    letter-spacing: 0.06em;
+    @include font(18px, 700, 2, 0.06em);
+    // font-weight: 700;
+    // font-size: 18px;
+    // line-height: calc(36 / 18);
+    // letter-spacing: 0.06em;
     color: var(--title-color);
   
   }
   
   .gallery-text {
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.03em;
+    @include font(16px, 400, 1.87, 0.03em);
+    // font-size: 16px;
+    // line-height: 1.87;
+    // letter-spacing: 0.03em;
     color: var(--text-color);
   }
   
