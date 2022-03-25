@@ -18,30 +18,24 @@
       url(../images/fone.jpg);
   }
   
-  .hero-title {
+  .hero__title {
     margin-bottom: 30px;
   
     @include font(44px, 900, 1.36, 0.06em);
-    // font-weight: 900;
-    // font-size: 44px;
-    // line-height: 1.36;
-    // letter-spacing: 0.06em;
+  
     text-transform: uppercase;
     text-align: center;
     color: var(--btn-color);
   }
   
-  .hero-btn {
+  .hero__btn {
     border-radius: 4px;
     padding: 10px 32px;
     border: 1px solid transparent;
   
     font-family: inherit;
     @include font(16px, 700, 1.87, 0.06em);
-    // font-weight: 700;
-    // font-size: 16px;
-    // line-height: 1.87;
-    // letter-spacing: 0.06em;
+  
     color: var(--btn-color);
 
     & {
@@ -49,19 +43,3 @@
     }
   }
  
-  .hero-btn,
-  .gallery-btm {
-    cursor: pointer;
-  }
-  .header-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .header-icon-email,
-  .header-icon-tel {
-    display: block;
-    fill: currentColor;
-    margin-right: 10px;
-  }

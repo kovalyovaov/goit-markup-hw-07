@@ -1,4 +1,18 @@
-.reasons-icon-link {
+
+
+
+  .reasons-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 94px;
+  }
+
+  .reasons-list__item {
+    width: 270px;
+  }
+
+  .reasons-list__icon--link {
     width: 270px;
     height: 120px;
     background-color: #f5f4fa;
@@ -8,55 +22,39 @@
     align-items: center;
     justify-content: center;
   }
-  
 
-  .reasons-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .reasons-item {
-    width: 270px;
-  }
-  
-  .reasons-link {
+  .work-list__link {
     width: 370px;
   }
   
-  .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-  
-  .reasons-pre-titile {
+  .reasons-list__pre--titile {
     margin-bottom: 10px;
-  
     @include font(14px, 700, 1.14, 0.03em);
-    // font-weight: 700;
-    // font-size: 14px;
-    // line-height: 1.14;
-    // letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-color);
   }
   
-  .reasons-text {
+  .reasons-list__text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--text-color);
   }
   
-  .reasons-title {
-    margin-top: 94px;
-    margin-bottom: 50px;
-    color: var(--title-color);
+  .work-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
-  
+
+  .work-list__img {
+    width: 370px;
+    height: 294px;
+    position: relative;
+  }
   /*----текст на картинку----*/
   
-  .reasons-actions {
+  .work-list__actions {
     position: absolute;
     display: flex;
     text-align: center;
@@ -69,16 +67,8 @@
   
     
     @include font(14px, 700, 1.14, 0.03em);
-    // font-weight: 700;
-    // font-size: 14px;
-    // line-height: calc(16 / 14);
-    // letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--btn-color);
   }
   
-  .reasons-img {
-    width: 370px;
-    height: 294px;
-    position: relative;
-  }
+  
