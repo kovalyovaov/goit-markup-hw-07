@@ -1,4 +1,4 @@
-.header-logo {
+.logo {
     font-family: "Raleway", sans-serif;
     @include font(26px, 700, 1.19, 0.03em);
     
@@ -13,15 +13,6 @@
   }
   }
   
-  .footer-logo {
-    margin-bottom: 20px;
-    // display: block;
-  
-    font-family: "Raleway", sans-serif;
-    @include font(26px, 700, 1.19, 0.03em);
-   
-    color: var(--accent-color);
-  }
   
   .footer-logo-accent {
     color: white;

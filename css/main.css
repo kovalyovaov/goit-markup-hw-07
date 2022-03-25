@@ -292,7 +292,7 @@ button {
   fill: var(--btn-color);
 }
 
-.header-logo {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -306,16 +306,6 @@ button {
 }
 
 .header-logo-accent:hover, .header-logo-accent:focus {
-  color: var(--accent-color);
-}
-
-.footer-logo {
-  margin-bottom: 20px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 
@@ -661,7 +651,7 @@ button {
   color: var(--header-text-color);
 }
 
-.partners-link {
+.partners-list__link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -673,17 +663,17 @@ button {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.partners-link:hover, .partners-link:focus {
+.partners-list__link:hover, .partners-list__link:focus {
   border-color: var(--accent-color);
 }
 
-.partners-icon {
+.partners-list__icon {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.partners-link:hover .partners-icon,
-.partners-link:focus .partners-icon {
+.partners-list__link:hover .partners-list__icon,
+.partners-list__link:focus .partners-list__icon {
   fill: var(--accent-color);
 }
 
@@ -820,12 +810,16 @@ footer {
   background-color: #2f303a;
 }
 
-.footer-kontakt {
+.footer-contakt {
   flex-grow: 1;
 }
 
-.footer-item:not(:last-child) {
+.footer-list__item:not(:last-child) {
   margin-bottom: 9px;
+}
+
+.footer-list:first-child {
+  margin-top: 20px;
 }
 
 .footer-link-adress {
