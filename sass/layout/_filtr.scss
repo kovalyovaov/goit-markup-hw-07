@@ -5,11 +5,11 @@
     margin-bottom: 56px;
   }
   
-  .filtr-item:not(:last-child) {
+  .filtr-list__item:not(:last-child) {
     margin-right: 8px;
   }
   
-  .filtr-btm {
+  .filtr-list__btm {
     font-family: inherit;
     @include font(16px, 500, 1.62, 0.03em);
     // font-weight: 500;

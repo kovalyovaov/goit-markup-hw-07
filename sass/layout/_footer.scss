@@ -16,7 +16,7 @@ footer {
   margin-top: 20px;
 }
   
-  .footer-list--adress {
+  .footer-list__adress {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -31,7 +31,7 @@ footer {
   }
   }  
 
-  .footer-link-email {
+  .footer-list__email {
     font-style: normal;
     @include font(14px, 400, 1.71, 0.03em);
     color: rgba(255, 255, 255, 0.6);
@@ -42,7 +42,7 @@ footer {
   }
   }
   
-  .footer-link-tel {
+  .footer-list__tel {
     font-style: normal;
     @include font(14px, 400, 1.71, 0.03em);
     color: rgba(255, 255, 255, 0.6);
@@ -60,12 +60,12 @@ footer {
     color: var(--btn-color);
   }
   
-  .footer-icon-list {
+  .footer-social-list {
     display: flex;
     justify-content: center;
   }
   
-  .footer-icon-link {
+  .footer-social-list__link {
     width: 44px;
     height: 44px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -81,11 +81,11 @@ footer {
     }  
 }
   
-  .footer-icon-item:not(:last-child) {
+  .footer-social-list__item:not(:last-child) {
     margin-right: 10px;
   }
   
-  .footer-icon {
+  .footer-social-list__icon {
     fill: var(--btn-color);
   }
   
@@ -103,11 +103,11 @@ footer {
     margin-left: 93px;
   }
   
-  .footer-form {
+  .footer-sent-form {
     display: flex;
   }
   
-  .footer-input {
+  .footer-sent__input {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -123,7 +123,7 @@ footer {
   color: rgba(255, 255, 255, 0.6);
   }
   
-  .footer-btn {
+  .footer-sent__btn {
   margin-left: 12px;
   width: 200px;
   height: 50px;
@@ -145,7 +145,7 @@ footer {
   }
   }
   
-  .footer-sent-icon {
+  .footer-sent__icon {
     width: 24px;
     height: 24px;
     fill: var(--btn-color);
